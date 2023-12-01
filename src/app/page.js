@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import { useState } from 'react';
+import babyPic from 'pub/babypic.jpg';
 
 
 
@@ -15,11 +16,19 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 bg-white">
-
+    <main className="flex min-h-screen flex-col items-center p-10">
+      <div className="md:shrink-0">
+        <Image 
+        src={babyPic}
+        quality={100}
+        className= "w-full object-cover md:h-full"
+        alt="baby mike"
+        />
+      </div>
+      
 
       <div 
-      className="text-red text-2xl pb-10"
+      className="text-prim-text text-2xl pb-10"
       onMouseEnter={() => onMikeHover(true)}
       onMouseLeave={() => onMikeHover(false)}
       >

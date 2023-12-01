@@ -1,5 +1,5 @@
 import { Cormorant } from 'next/font/google'
-import '@/app/globals.css'
+import '../globals.css'
 
 const inter = Cormorant({ subsets: ['latin'] })
 
@@ -8,10 +8,10 @@ export const metadata = {
   description: 'Personal website of Mike Park',
 }
 
-export default function RootLayout({ children }) {
+export default function ResumeLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <section>
+      {children}
+    </section>
   )
 }

@@ -1,5 +1,5 @@
 import { Cormorant } from 'next/font/google';
-import '@/app/globals.css';
+import './globals.css';
 
 const cormorant = Cormorant({ subsets: ['latin'] });
 
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={cormorant.className}>
+      <body className={`${cormorant.className} bg-primary-bg-2`}>
         {children}
       </body>
     </html>
