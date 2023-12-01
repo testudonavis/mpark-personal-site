@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -13,7 +11,11 @@ module.exports = {
         'red': '#F13C20',
         'blue': '#4056A1',
         'light-blue': '#C5CBE3',
-        'comp': "#e3ddc5"
+        'comp': "#e3ddc5",
+        'primary-bg': '#D7E8D4',
+        'primary-bg-2': '#F3ECE0',
+        'prim-600': '#F6D737',
+        'prim-text': '#333333'
       }
     }
   },
