@@ -19,6 +19,7 @@ module.exports = {
         'prim-text-2': '#5C4033',
         'secondary-text': '#704214',
         'tertiary-text': '#2F3E46',
+        'offset-text': '#F8F5F1',
       }
     }
   },
