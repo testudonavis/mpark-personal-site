@@ -15,7 +15,10 @@ module.exports = {
         'primary-bg': '#D7E8D4',
         'primary-bg-2': '#F3ECE0',
         'prim-600': '#F6D737',
-        'prim-text': '#333333'
+        'prim-text': '#333333',
+        'prim-text-2': '#5C4033',
+        'secondary-text': '#704214',
+        'tertiary-text': '#2F3E46',
       }
     }
   },

@@ -1,42 +1,57 @@
-'use client'
-
 import Image from 'next/image'
 import Link from 'next/link';
-import { useState } from 'react';
 import babyPic from 'pub/babypic.jpg';
-
-
+import MainLink from '@/components/MainLink';
+import Footer from './components/Footer';
 
 
 export default function Home() {
-  const [maxi, setMaxi] = useState(false);
 
-  function onMikeHover(inside) {
-    setMaxi(inside);
-  }
+  const mainLinks = [
+    {
+      route: 'projects',
+    },
+    {
+      route: 'about',
+    },
+    {
+      route: 'blog',
+    },
+    {
+      route: 'cv',
+    },
+  ]
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-10">
-      <div className="md:shrink-0">
-        <Image 
-        src={babyPic}
-        quality={100}
-        className= "w-full object-cover md:h-full"
-        alt="baby mike"
-        />
-      </div>
-      
+    <main className="flex min-h-screen items-center flex-col pt-10 pr-10 pl-10">
+        <div className="content grow justify-center items-center">
+          <div className="md:shrink-0">
+            <Image 
+            src={babyPic}
+            quality={100}
+            className= "w-full object-cover md:h-full"
+            alt="baby mike"
+            priority={true}
+            />
+          </div>
 
-      <div 
-      className="text-prim-text text-2xl pb-10"
-      onMouseEnter={() => onMikeHover(true)}
-      onMouseLeave={() => onMikeHover(false)}
-      >
-        {maxi ? 'mike park (maxi)' : 'mike park (mini)'}
-      </div>
-      <div className="text-blue text-xl p-10">
-        <Link href={`/contact`}>links</Link>
-      </div>
+          <div 
+          className="text-prim-text-2 text-center text-2xl pt-7 pb-3"
+          >
+            <Link href={`/about`}> mike park </Link>
+          </div>
+          {
+            mainLinks.map(item => {
+              return (
+                <MainLink
+                  key={item.route}
+                  route={item.route}
+                />
+              );
+            })
+          }
+        </div>
+      <Footer />
     </main>
   )
 }
