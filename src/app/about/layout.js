@@ -1,7 +1,4 @@
-import { Cormorant } from 'next/font/google'
-import '../globals.css'
-
-const inter = Cormorant({ subsets: ['latin'] })
+import '@/globals.css'
 
 export const metadata = {
   title: 'Mike Park',

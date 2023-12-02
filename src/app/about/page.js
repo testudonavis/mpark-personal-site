@@ -4,7 +4,7 @@ export default function Home() {
 
 
       <div className="text-blue text-2xl">
-        contact
+        about
       </div>
 
     </main>

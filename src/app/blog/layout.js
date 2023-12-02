@@ -5,7 +5,7 @@ export const metadata = {
   description: 'Personal website of Mike Park',
 }
 
-export default function ProjectsLayout({ children }) {
+export default function BlogLayout({ children }) {
   return (
     <section>
       {children}
