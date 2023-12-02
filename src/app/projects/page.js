@@ -3,7 +3,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
 
-      <div className="text-blue text-2xl">
+      <div className="text-prim-text-2 text-2xl">
         projects
       </div>
 

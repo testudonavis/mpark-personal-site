@@ -1,12 +1,20 @@
-export default function Home() {
+import Image from "next/image";
+
+import profilePic from 'pub/mike-venice.png';
+
+export default function About() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-
-      <div className="text-blue text-2xl">
-        about
-      </div>
-
-    </main>
+    <section className="flex min-h-screen flex-col p-10">
+      <Image
+          src={profilePic}
+          quality={100}
+          className= "w-24"
+          alt="mike park"
+          priority={true}
+      />
+      <p>
+        a scrapper with a dash of chivalry
+      </p>
+    </section>
   )
 }

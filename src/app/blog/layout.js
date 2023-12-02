@@ -1,4 +1,4 @@
-import '@/globals.css'
+import SubPageLayout from '@/components/SubPageLayout';
 
 export const metadata = {
   title: 'Mike Park',
@@ -6,9 +6,8 @@ export const metadata = {
 }
 
 export default function BlogLayout({ children }) {
+
   return (
-    <section>
-      {children}
-    </section>
+    <SubPageLayout children={children} />
   )
 }

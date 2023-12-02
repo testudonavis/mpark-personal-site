@@ -1,26 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link';
+
 import babyPic from 'pub/babypic.jpg';
 import MainLink from '@/components/MainLink';
 import Footer from './components/Footer';
+import { mainLinks } from './lib/config';
 
 
 export default function Home() {
-
-  const mainLinks = [
-    {
-      route: 'projects',
-    },
-    {
-      route: 'about',
-    },
-    {
-      route: 'blog',
-    },
-    {
-      route: 'cv',
-    },
-  ]
 
   return (
     <main className="flex min-h-screen items-center flex-col pt-10 pr-10 pl-10">
@@ -41,11 +28,11 @@ export default function Home() {
             <Link href={`/about`}> mike park </Link>
           </div>
           {
-            mainLinks.map(item => {
+            mainLinks.map(mainLink => {
               return (
                 <MainLink
-                  key={item.route}
-                  route={item.route}
+                  key={mainLink.route}
+                  route={mainLink.route}
                 />
               );
             })
