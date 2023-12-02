@@ -8,6 +8,6 @@ export const metadata = {
 export default function AboutLayout({ children }) {
 
   return (
-    <SubPageLayout children={children} />
+    <SubPageLayout>{children}</SubPageLayout>
   )
 }
