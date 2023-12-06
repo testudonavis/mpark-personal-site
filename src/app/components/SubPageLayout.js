@@ -1,7 +1,6 @@
 import '@/globals.css';
 import Header from './Header';
 import Footer from './Footer';
-import BackHomeButton from './BackHomeButton';
 
 export const metadata = {
   title: 'Mike Park',
@@ -11,7 +10,6 @@ export const metadata = {
 const SubPageLayout = ({ children, layoutProps }) => {
     return (
         <main>
-            {/* <BackHomeButton /> */}
             <Header />
             {children}
             <Footer />
