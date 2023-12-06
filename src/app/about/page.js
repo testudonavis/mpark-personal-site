@@ -20,16 +20,16 @@ export default function About() {
         <br></br>
         <div className="main-text text-prim-text-2">
           <p>
-            hey, i'm mike! my primary background is software engineering, literature, and civics. i have over 7 years experience in the tech industry as a jack of all trades for AI startups. it's the challenge of our times to use burgeoning technologies responsibly. my main interest is how we can provide inclusion, opportunity, and growth in our cities through tech. let's link up if you share this mission!
+            hey, i&apos;m mike! my primary background is software engineering, literature, and civics. i have over 7 years experience in the tech industry as a jack of all trades for AI startups. it&apos;s the challenge of our times to use burgeoning technologies responsibly. my main interest is how we can provide inclusion, opportunity, and growth in our cities through tech. let&apos;s link up if you share this mission!
           </p>
           <br></br>
           <p>
-          other things i like: driving my e39 m5, cooking a haul from the farmer's market, and going to concerts. 
+          other things i like: driving my e39 m5, cooking a haul from the farmer&apos;s market, and going to concerts. 
           i live in sunny venice, california with my partner dakota, our animals (turtle hula, cats rafa-tati), and our growing plant family.
           </p>
           <br></br>
           <p>
-          it's important — now more than ever — to get involved in-person with our local communities. im volunteering through <a className="font-bold underline text-tertiary-text" href="https://www.kyccla.org/">KYCC</a> - for enrichment and as a tax advisor. 
+          it&apos;s important — now more than ever — to get involved in-person with our local communities. im volunteering through <a className="font-bold underline text-tertiary-text" href="https://www.kyccla.org/">KYCC</a> - for enrichment and as a tax advisor. 
           </p>
           <br></br>
           <p>
@@ -59,7 +59,7 @@ export default function About() {
           fav artists (♬):<br></br>
           james brown<br></br>
           led zeppelin<br></br>
-          d'angelo<br></br>
+          d&apos;angelo<br></br>
           </p>
         </div>
       </div>
