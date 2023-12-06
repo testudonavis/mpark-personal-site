@@ -19,11 +19,12 @@ export default function Home() {
             className= "w-full object-cover md:h-full"
             alt="baby mike"
             priority={true}
+            placeholder="blur"
             />
           </div>
 
           <div 
-          className="text-prim-text-2 text-center text-2xl pt-7 pb-3"
+          className="text-prim-text-2 text-center text-2xl pt-7 pb-3 hover:font-bold"
           >
             <Link href={`/about`}> mike park </Link>
           </div>
