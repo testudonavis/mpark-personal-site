@@ -8,7 +8,4 @@ export const mainLinks = [
     {
       route: 'blog',
     },
-    {
-      route: 'cv',
-    },
 ]
