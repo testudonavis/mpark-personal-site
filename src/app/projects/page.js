@@ -1,12 +1,7 @@
-export default function Home() {
+import Gallery from "@/components/Gallery"
+
+export default function Projects() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-
-      <div className="text-prim-text-2 text-2xl">
-        projects
-      </div>
-
-    </main>
+    <Gallery />
   )
 }
