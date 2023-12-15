@@ -29,12 +29,12 @@ module.exports = {
         'offset-text': '#F8F5F1',
         'pic-frame': '#FCFAF2',
         'pinwheel-blue': '#3461A4',
-        'pinwheel-green': '#2B7A4B',
+        'pinwheel-fgreen': '#2B7A4B',
         'pinwheel-red': '#8C2F39',
         'pinwheel-teal': '#217378',
         'pinwheel-purp': '#5E345E',
         'pinwheel-oj': '#C3544A',
-        'pinwheel-green': '#708238',
+        'pinwheel-ogreen': '#708238',
         'pinwheel-slate': '#4B4E6D',
       }
     }

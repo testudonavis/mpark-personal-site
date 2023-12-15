@@ -44,12 +44,12 @@ const textSections = [
 function Skills() {
   const colors = [
     'bg-pinwheel-blue',
-    'bg-pinwheel-green',
+    'bg-pinwheel-fgreen',
     'bg-pinwheel-red',
     'bg-pinwheel-teal',
     'bg-pinwheel-purp',
     'bg-pinwheel-oj',
-    'bg-pinwheel-green',
+    'bg-pinwheel-ogreen',
     'bg-pinwheel-slate',
   ]
   return (
