@@ -17,16 +17,27 @@ const skills = [
 ]
 
 const textSections = [
-  "Built with React, Tailwind CSS, and Next.js. Deployed on Vercel. Check out the github link.",
-  <>
-    Areas to improve:
-    <ul className="pl-5 list-disc">
-      <li>Site Speed/Image optimization</li>
-      <li>Advanced analytics</li>
-      <li>Code lint</li>
-    </ul>
-  </>,
-  "Started: Nov 2003"
+  {
+    "text": "Built with React, Tailwind CSS, and Next.js. Deployed on Vercel. Check out the github link.",
+    "key": "summary"
+  },
+  {
+    "text": <>
+      Areas to improve:
+      <ul className="pl-5 list-disc">
+        <li>Site Speed/Image optimization</li>
+        <li>Advanced analytics</li>
+        <li>Code lint</li>
+      </ul>
+    </>,
+    "key": "improvement"
+  },
+  {
+    "text": "Started: Nov 2003",
+    "key": "started"
+  },
+,
+  
 ]
 
 
@@ -86,8 +97,8 @@ export default function Website() {
         <div className="text-xs mt-5">
           {textSections.map(textSection => {
             return (
-              <div className="mb-5">
-                {textSection}
+              <div key={textSection.key} className="mb-5">
+                {textSection.text}
               </div>
             )
           })}
