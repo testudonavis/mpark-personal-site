@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderWidth: {
+        'pf': '10px'
+      },
+      boxShadow: {
+        'inner2': 'inset 0 2px 4px 0 rgb(0 0 0 / 0.1)',
+        'tag': '0px -2px 4px 0px rgb(0 0 0 / 0.1)',
+      },
       colors: {
         'mud': '#D79922',
         'sand': '#EFE2BA',
@@ -20,6 +27,15 @@ module.exports = {
         'secondary-text': '#704214',
         'tertiary-text': '#2F3E46',
         'offset-text': '#F8F5F1',
+        'pic-frame': '#FCFAF2',
+        'pinwheel-blue': '#3461A4',
+        'pinwheel-green': '#2B7A4B',
+        'pinwheel-red': '#8C2F39',
+        'pinwheel-teal': '#217378',
+        'pinwheel-purp': '#5E345E',
+        'pinwheel-oj': '#C3544A',
+        'pinwheel-green': '#708238',
+        'pinwheel-slate': '#4B4E6D',
       }
     }
   },

@@ -11,7 +11,7 @@ export default function Header() {
     const pathname = usePathname();
     return (
         <>
-            <header className="flex flex-row items-center justify-between pl-10 pr-10 pb-10 pt-2">
+            <header className="flex flex-row items-center justify-between pl-10 pr-10 pb-2 pt-2">
                 <BackHomeButton />
                 <div className="flex text-secondary-text grow justify-center mr-8">
                     {

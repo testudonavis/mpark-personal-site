@@ -4,7 +4,7 @@ import profilePic from 'pub/mike-venice.png';
 
 export default function About() {
   return (
-    <section className="flex min-h-screen items-center flex-col">
+    <section className="flex mx-auto">
       <div className="bio flex flex-col justify-center w-80">
         <div className="flex justify-center">
           <Image
@@ -16,7 +16,7 @@ export default function About() {
               placeholder="blur"
           />
         </div>
-        <p className="grow text-prim-text-2 text-xl">welcome</p>
+        <p className="text-prim-text-2 text-xl">welcome</p>
         <br></br>
         <div className="main-text text-prim-text-2">
           <p>
