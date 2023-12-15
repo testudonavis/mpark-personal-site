@@ -9,11 +9,15 @@ export const metadata = {
 
 const SubPageLayout = ({ children, layoutProps }) => {
     return (
-        <main>
-            <Header />
-            {children}
-            <Footer />
-        </main>
+        <>
+            <div className="flex flex-col min-h-screen">
+                <Header />
+                    <main className="flex grow">
+                        {children}
+                    </main>
+                <Footer />
+            </div>
+        </>
     );
 };
 
