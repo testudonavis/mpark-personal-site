@@ -19,7 +19,7 @@ const nextConfig = {
               mediaSrc: "'none'",
               frameSrc: "'none'",
               fontSrc: "'self'",
-              connectSrc: "'self' 'https://vitals.vercel-insights.com/v1/vitals'",
+              connectSrc: "'self' https://vitals.vercel-insights.com/v1/vitals",
             },
           },
         }),
