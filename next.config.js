@@ -12,7 +12,7 @@ const nextConfig = {
           contentSecurityPolicy: {
             directives: {
               defaultSrc: "'self'",
-              scriptSrc: "'self' 'unsafe-inline' 'unsafe-eval'",
+              scriptSrc: "'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live",
               objectSrc: "'none'",
               styleSrc: "'self' 'unsafe-inline'",
               imgSrc: "'self'",
