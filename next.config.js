@@ -12,13 +12,14 @@ const nextConfig = {
           contentSecurityPolicy: {
             directives: {
               defaultSrc: "'self'",
-              scriptSrc: "'self' 'unsafe-inline' 'unsafe-eval'",
+              scriptSrc: "'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live",
               objectSrc: "'none'",
               styleSrc: "'self' 'unsafe-inline'",
               imgSrc: "'self'",
               mediaSrc: "'none'",
-              frameSrc: "'none'",
+              frameSrc: "'self' https://vercel.live",
               fontSrc: "'self'",
+              connectSrc: "'self' https://vitals.vercel-insights.com/v1/vitals https://vercel.live",
             },
           },
         }),
