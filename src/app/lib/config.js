@@ -1,4 +1,4 @@
-export const mainLinks = [
+const mainLinks = [
   {
     route: 'projects',
   },
@@ -8,4 +8,6 @@ export const mainLinks = [
   {
     route: 'blog',
   },
-]
+];
+
+export default mainLinks;

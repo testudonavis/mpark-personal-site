@@ -1,24 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       borderWidth: {
-        'pf': '10px'
+        pf: '10px',
       },
       boxShadow: {
-        'inner2': 'inset 0 2px 4px 0 rgb(0 0 0 / 0.1)',
-        'tag': '0px -2px 4px 0px rgb(0 0 0 / 0.1)',
+        inner2: 'inset 0 2px 4px 0 rgb(0 0 0 / 0.1)',
+        tag: '0px -2px 4px 0px rgb(0 0 0 / 0.1)',
       },
       colors: {
-        'mud': '#D79922',
-        'sand': '#EFE2BA',
-        'red': '#F13C20',
-        'blue': '#4056A1',
+        mud: '#D79922',
+        sand: '#EFE2BA',
+        red: '#F13C20',
+        blue: '#4056A1',
         'light-blue': '#C5CBE3',
-        'comp': "#e3ddc5",
+        comp: '#e3ddc5',
         'primary-bg': '#D7E8D4',
         'primary-bg-2': '#F3ECE0',
         'prim-600': '#F6D737',
@@ -36,8 +34,8 @@ module.exports = {
         'pinwheel-oj': '#C3544A',
         'pinwheel-ogreen': '#708238',
         'pinwheel-slate': '#4B4E6D',
-      }
-    }
+      },
+    },
   },
   plugins: [],
-}
+};
