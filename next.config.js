@@ -12,9 +12,9 @@ const nextConfig = {
           contentSecurityPolicy: {
             directives: {
               defaultSrc: "'self'",
-              scriptSrc: "'self'",
+              scriptSrc: "'self' 'unsafe-inline' 'unsafe-eval'",
               objectSrc: "'none'",
-              styleSrc: "'self'",
+              styleSrc: "'self' 'unsafe-inline'",
               imgSrc: "'self'",
               mediaSrc: "'none'",
               frameSrc: "'none'",
